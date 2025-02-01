@@ -43,3 +43,8 @@ make px4_sitl gz_x500
 ```console
 colcon build
 ```
+
+4. Run ROS2
+```console
+ros2 launch px4_ros_com sensor_combined_listener.launch.py
+```
